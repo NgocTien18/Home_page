@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Official Fc Barcelona Website</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- Style css -->
+    <link rel="stylesheet" href="./assets/css/home.css" />
+    <!-- Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Sen -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="height: 5000px">
+    <!---------------HEADER--------------->
+    <header class="header">
+      <div class="container">
+        <h1 class="heading">FC Barcelona</h1>
+      </div>
+    </header>
+    <!---------------NAVICATION--------------->
+    <nav class="nav fixed">
+      <a href="#!"
+        ><img src="./Assets/image/logo.svg" alt="" class="logo" loading="lazy"
+      /></a>
+      <div class="menu">
+        <ul>
+          <li class="item"><a href="#!">Home</a></li>
+          <li class="item"><a href="#!">Match</a></li>
+          <li class="item"><a href="#!">Player</a></li>
+          <li class="item"><a href="#!">Albums</a></li>
+        </ul>
+      </div>
+
+      <div class="action">
+        <div class="search">
+          <input type="text" class="search-input" />
+          <a href="#!"
+            ><img
+              src="./Assets/icon/search_icon.svg"
+              alt=""
+              class="search_icon"
+              loading="lazy"
+          /></a>
+        </div>
+
+        <a href="#!" class="login">
+          <div class="avatar">
+            <img
+              src="./Assets/icon/user_avatar.svg"
+              alt=""
+              class="avatar_user"
+              loading="lazy"
+            />
+          </div>
+          <span class="text">Login</span>
+        </a>
+      </div>
+    </nav>
+
+    <!---------------SLIDER--------------->
+    <div class="slider">
+      <div class="container">
+        <div class="slides-thumb">
+          <img
+            src="./Assets/image/thumb_1.jpeg"
+            alt=""
+            class="slides-item"
+            loading="lazy"
+          />
+          <img
+            src="./Assets/image/thumb_2.jpeg"
+            alt=""
+            class="slides-item"
+            loading="lazy"
+          />
+          <img
+            src="./Assets/image/thumb_3.webp"
+            alt=""
+            class="slides-item"
+            loading="lazy"
+          />
+          <img
+            src="./Assets/image/thumb_4.jpeg"
+            alt=""
+            class="slides-item"
+            loading="lazy"
+          />
+          <img
+            src="./Assets/image/thumb_5.jpeg"
+            alt=""
+            class="slides-item"
+            loading="lazy"
+          />
+          <img
+            src="./Assets/image/thumb_6.jpeg"
+            alt=""
+            class="slides-item"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+      </div>
+      <script src="./assets/javascript/script.js"></script>
+      <!--  -->
+    </div>
+
+    <!---------------LEGENDARY--------------->
+    <div class="legendary">
+      <div class="container">
+        <h2 class="heading">LEGENDARY</h2>
+        <div class="legen_list">
+          <!-- item1 -->
+          <div class="legen_item">
+            <img
+              src="./Assets/image/messi.jpeg"
+              alt="messi"
+              class="lengen_image"
+              loading="lazy"
+            />
+            <div class="info">
+              <div class="info_top">
+                <div class="fullname">
+                  <strong class="number">10</strong>
+                  <strong class="name">Lionel Messi</strong>
+                </div>
+                <strong class="position">Forwards</strong>
+              </div>
+
+              <div class="info_bottom">
+                <span class="date">Birth: 1987-6-24</span>
+                <span class="play_time">Sesson: 2005 - 2021</span>
+                <div class="nationality">
+                  <img
+                    src="./Assets/image/Argentina.png"
+                    alt="arg"
+                    class="flag"
+                  />
+                  <span class="country_name">Argentina</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- item2 -->
+          <div class="legen_item">
+            <img
+              src="./Assets/image/Johan Cruyff.jpeg"
+              alt="Johan Cruyff"
+              class="lengen_image"
+              loading="lazy"
+            />
+            <div class="info">
+              <div class="info_top">
+                <div class="fullname">
+                  <strong class="number">14</strong>
+                  <strong class="name">Johan Cruyff</strong>
+                </div>
+                <strong class="position">Forwards</strong>
+              </div>
+
+              <div class="info_bottom">
+                <span class="date">Birth: 1947-4-25 (2016-3-24)</span>
+                <span class="play_time">Sesson: 1973 - 1978</span>
+                <div class="nationality">
+                  <img
+                    src="./Assets/image/ha_lan_plag.png"
+                    alt="ha_lan"
+                    class="flag"
+                  />
+                  <span class="country_name">Netherlands</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- item3 -->
+          <div class="legen_item">
+            <img
+              src="./Assets/image/maradona.jpeg"
+              alt="maradona"
+              class="lengen_image"
+              loading="lazy"
+            />
+            <div class="info">
+              <div class="info_top">
+                <div class="fullname">
+                  <strong class="number">10</strong>
+                  <strong class="name">Diego Maradona</strong>
+                </div>
+                <strong class="position">Forwards</strong>
+              </div>
+
+              <div class="info_bottom">
+                <span class="date">Birth: 1960-10-30 (2020-11-25)</span>
+                <span class="play_time">Sesson: 1984–1991</span>
+                <div class="nationality">
+                  <img
+                    src="./Assets/image/Argentina.png"
+                    alt="Argentina"
+                    class="flag"
+                  />
+                  <span class="country_name">Argentina</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- item4 -->
+          <div class="legen_item">
+            <img
+              src="./Assets/image/rolandinho.jpeg"
+              alt="rolandinho"
+              class="lengen_image"
+              loading="lazy"
+            />
+            <div class="info">
+              <div class="info_top">
+                <div class="fullname">
+                  <strong class="number">10</strong>
+                  <strong class="name">Ronaldinho Gaucho</strong>
+                </div>
+                <strong class="position">Forwards</strong>
+              </div>
+
+              <div class="info_bottom">
+                <span class="date">Birth: 1980-3-21</span>
+                <span class="play_time">Sesson: 2003 - 2008</span>
+                <div class="nationality">
+                  <img
+                    src="./Assets/image/brazil_flag.png"
+                    alt="brazil_flag"
+                    class="flag"
+                  />
+                  <span class="country_name">Brazil</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- item5 -->
+          <div class="legen_item">
+            <img
+              src="./Assets/image/puyol.jpeg"
+              alt="puyol"
+              class="lengen_image"
+              loading="lazy"
+            />
+            <div class="info">
+              <div class="info_top">
+                <div class="fullname">
+                  <strong class="number">5</strong>
+                  <strong class="name">Carles Puyol</strong>
+                </div>
+                <strong class="position">Defenders</strong>
+              </div>
+
+              <div class="info_bottom">
+                <span class="date">Birth: 1978-4-13</span>
+                <span class="play_time">Sesson: 1999–2014</span>
+                <div class="nationality">
+                  <img
+                    src="./Assets/image/tay_ban_nha_flag.png"
+                    alt="spain"
+                    class="flag"
+                  />
+                  <span class="country_name">Spain</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- item6 -->
+          <div class="legen_item">
+            <img
+              src="./Assets/image/iniesta .jpeg"
+              alt="iniesta"
+              class="lengen_image"
+              loading="lazy"
+            />
+            <div class="info">
+              <div class="info_top">
+                <div class="fullname">
+                  <strong class="number">8</strong>
+                  <strong class="name">Andres Iniesta</strong>
+                </div>
+                <strong class="position">Midfielders</strong>
+              </div>
+
+              <div class="info_bottom">
+                <span class="date">Birth: 1984-5-11</span>
+                <span class="play_time">Sesson: 2002–2018</span>
+                <div class="nationality">
+                  <img
+                    src="./Assets/image/tay_ban_nha_flag.png"
+                    alt="spain"
+                    class="flag"
+                  />
+                  <span class="country_name">Spain</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- item7 -->
+          <div class="legen_item">
+            <img
+              src="./Assets/image/xavi.jpeg"
+              alt="xavi"
+              class="lengen_image"
+              loading="lazy"
+            />
+            <div class="info">
+              <div class="info_top">
+                <div class="fullname">
+                  <strong class="number">6</strong>
+                  <strong class="name">Xavi Hernández </strong>
+                </div>
+                <strong class="position">Midfielders</strong>
+              </div>
+
+              <div class="info_bottom">
+                <span class="date">Birth: 1980-1-5</span>
+                <span class="play_time">Sesson: 1998–2015</span>
+                <div class="nationality">
+                  <img
+                    src="./Assets/image/tay_ban_nha_flag.png"
+                    alt="Spain"
+                    class="flag"
+                  />
+                  <span class="country_name">Spain</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- item8 -->
+          <div class="legen_item">
+            <img
+              src="./Assets/image/eto.jpeg"
+              alt="eto"
+              class="lengen_image"
+              loading="lazy"
+            />
+            <div class="info">
+              <div class="info_top">
+                <div class="fullname">
+                  <strong class="number">9</strong>
+                  <strong class="name">Samuel Eto'o</strong>
+                </div>
+                <strong class="position">Forwards</strong>
+              </div>
+
+              <div class="info_bottom">
+                <span class="date">Birth: 1981-3-10</span>
+                <span class="play_time">Sesson: 2004–2009</span>
+                <div class="nationality">
+                  <img
+                    src="./Assets/image/cameroon_flag.png"
+                    alt="Cameroon"
+                    class="flag"
+                  />
+                  <span class="country_name">Cameroon</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- item8 -->
+          <div class="legen_item">
+            <img
+              src="./Assets/image/valdes.jpeg"
+              alt="valdes"
+              class="lengen_image"
+              loading="lazy"
+            />
+            <div class="info">
+              <div class="info_top">
+                <div class="fullname">
+                  <strong class="number">1</strong>
+                  <strong class="name">Victor Valdes</strong>
+                </div>
+                <strong class="position">Goalkeepers</strong>
+              </div>
+
+              <div class="info_bottom">
+                <span class="date">Birth: 1982-1-14</span>
+                <span class="play_time">Sesson:2002–2014</span>
+                <div class="nationality">
+                  <img
+                    src="./Assets/image/tay_ban_nha_flag.png"
+                    alt="Spain"
+                    class="flag"
+                  />
+                  <span class="country_name">Spain</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
